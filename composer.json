@@ -1,0 +1,28 @@
+{
+  "name": "phpzm/mailer",
+  "description": "Wrapper minimalist to PHPMailer",
+  "minimum-stability": "dev",
+  "keywords": [
+    "php",
+    "framework",
+    "api",
+    "simples"
+  ],
+  "homepage": "https://github.com/phpzm/mailer",
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "package",
+  "authors": [
+    {
+      "name": "William",
+      "email": "wilcorrea@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Simples\\Mailer\\": "src/"
+    }
+  }
+}
